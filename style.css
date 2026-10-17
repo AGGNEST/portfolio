@@ -429,7 +429,7 @@ section > h1::after {
 .projects-container {
     display: grid;
 
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
 
     gap: 25px;
 
@@ -542,6 +542,24 @@ section > h1::after {
 
     border: 1px solid #000507;
 }
+
+
+
+.project-image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+    margin: 15px 0;
+    background-color: #10181e;
+}
+
+
+.project-image:hover {
+    transform: scale(1.02);
+}
+
 
 
 /* =========================
